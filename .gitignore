@@ -1,0 +1,66 @@
+# R specific ignores
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Rproj.user
+.Rbuildignore
+.Rproj
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Rproj.user
+.Rbuildignore
+.Rproj
+.Renviron
+
+# Python specific ignores
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+*.eggs/
+*.manifest
+*.spec
+*.log
+*.pot
+*.mo
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+*.eggs/
+*.manifest
+*.spec
+*.log
+*.pot
+*.mo
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# Common ignores
+.DS_Store
+Thumbs.db
