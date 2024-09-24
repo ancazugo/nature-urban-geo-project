@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "nature-urban-geo-project"
+version = "0.1.0"
+description = ""
+authors = ["Andrés Camilo Zúñiga-González <ancazugo@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10,<3.13"
+pyrosm = "^0.6.2"
+earthengine-api = "^1.1.0"
+ipykernel = "^6.29.5"
+python-dotenv = "^1.0.1"
+cartopy = "^0.23.0"
+folium = "^0.17.0"
+networkx = "^3.3"
+osmnx = "^1.9.4"
+scikit-learn = "^1.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
